@@ -32,7 +32,7 @@ workspace "CC"
         defines { "NDEBUG" }
         symbols "Off"
         optimize "Speed"
-        flags { "LinkTimeOptimization" }
+        linktimeoptimization "On"
 
     filter {}
 
